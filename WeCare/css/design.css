@@ -1,0 +1,221 @@
+body {
+
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding 0;
+    overflow: hidden;
+    text-align: center;
+
+}
+
+#header {
+    position: absolute;
+    width: 100%;
+    z-index: 100;
+    
+
+}
+#panel{
+    display: none;
+}
+
+#panelBack {
+    
+    position: absolute;
+    bottom: 0px;
+    top: 85vh;
+    width: 50vw;
+    left: 25vw;
+    margin: auto;
+    z-index: 100;
+    background-color: 4062AE;
+    border-radius: 15px 15px 0px 0px;
+}
+
+#bottom {
+    font-size: 70px;
+    position: absolute;
+    bottom: 60px;
+    z-index: 100;
+    width: 100%;
+}
+
+#logo {
+    margin-top: 40px;
+    width: 100%;
+    max-width: 300px;
+}
+
+
+
+#start {
+    
+    width: 25%;
+    font-family: roboto, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    border: none;
+    color: white;
+    background-color: 4062AE;
+    padding: 15px 100px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 15px;
+}
+#grid{
+    height: 10vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#Close {
+text-align: center;
+    margin-left: auto;
+  margin-right: auto;
+
+    position: absolute;
+    
+    
+    width: 10vw;
+    left: 45vw;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    bottom: 5px;
+    color: white;
+    z-index: 101;
+    border-radius: 15px;
+    
+    
+    
+
+   
+}
+
+#Restart:hover{
+    background:#233660;
+}
+#Start:hover{
+    background:#233660;
+}
+#Close:hover{
+    background:#233660;
+}
+p3 {
+    margin-top: 50%;
+    color: 4062AE;
+    font-family: roboto, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 50px;
+
+}
+
+p2 {
+    color: 4062AE;
+    font-family: roboto, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+}
+
+p {
+    color: white;
+    font-family: roboto, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 15px;
+}
+
+#info {
+    display: none;
+}
+
+#Factory {
+    display: none;
+    z-index: 101;
+}
+
+#Plane {
+    display: none;
+    z-index: 101;
+}
+
+#Car {
+    display: none;
+    z-index: 101;
+}
+
+#Factory2 {
+    display: none;
+    z-index: 101;
+}
+
+#OilExtractor {
+    display: none;
+    z-index: 101;
+}
+
+#Progress {
+    top: 40px;
+
+    left: 15%;
+    
+    width: 70%;
+    z-index: 100;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    position: absolute
+}
+
+.ProgressImg {
+    margin: auto;
+    width: 10vw;
+    max-width: 80px;
+    color: 4062AE;
+    border-radius: 50%;
+}
+
+#WinScreen {
+display: none;   
+
+}
+
+#WinScreenTop{
+    position: absolute;
+    top: 40px;
+    
+    width: 50vw;
+    left: 25vw;
+    margin: auto;
+    z-index: 100;
+}
+
+p3 {
+    font-family: roboto, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+
+}
+
+
+#Restart{
+        
+    width: 25%;
+    font-family: roboto, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    border: none;
+    color: white;
+    background-color: 4062AE;
+    padding: 15px 100px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 15px;
+    
+    
+   
+}
