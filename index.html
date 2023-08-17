@@ -810,7 +810,7 @@ Close();
 
 
     var render = function() {
-        renderer.render(scene, camera);
+       
         scene.background = (skycolor);
         var timer = Date.now() * 0.0003;
         light2.position.x = Math.cos(timer) * 400;
@@ -827,6 +827,7 @@ Close();
 
         controls.update();
         TWEEN.update();
+        renderer.render(scene, camera);
     };
 
     var GameLoop = function() {
