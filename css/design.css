@@ -44,7 +44,7 @@ body {
 #logo {
     margin-top: 40px;
     width: 100%;
-    max-width: 100px;
+    max-width: 150px;
 }
 
 
@@ -108,7 +108,7 @@ p3 {
     font-family: roboto, sans-serif;
     font-weight: 300;
     font-style: normal;
-    font-size: 50px;
+    font-size: 25px;
 
 }
 
@@ -117,7 +117,7 @@ p2 {
     font-family: roboto, sans-serif;
     font-weight: 300;
     font-style: normal;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 p {
@@ -125,7 +125,7 @@ p {
     font-family: roboto, sans-serif;
     font-weight: 200;
     font-style: normal;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 #info {
